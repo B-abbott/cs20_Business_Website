@@ -1,0 +1,109 @@
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body {
+    width: 100vw;
+    min-height: 100vh;
+    font-family: "Oswald", 'Arial Narrow', Arial, sans-serif;
+    overflow-x: hidden;
+}
+header {
+    background-color: burlywood;
+    height: 400px;
+    width: 100vw;
+    position: relative;
+    justify-content: space-between;
+}
+.logo {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+}
+.PackH {
+    font-size: 275px;
+    color: black;
+    text-align: center;
+}
+
+#desc {
+    width: 100vw;
+    height: 1200px;
+    position: relative;
+    background-image: url('Images/Warehouse.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.square {
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    background: rgba(0, 0, 0, 0.7);
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white; /* White text color inside the bubble */
+    font-size: 20px; /* Adjust font size inside the bubbles */
+}
+.square .dc1,
+.square .dc2,
+.square .dc3,
+.square .dc4 {
+    position: absolute; /* This ensures positioning works */
+}
+
+.dc1 {
+    top: 25%;
+    left: 25%;
+}
+.dc2 {
+    top: 25%;
+    left: 50%;
+
+}
+.dc3 {
+    bottom: 5%;
+    left: 25%;
+}
+.dc4 {
+    bottom: 5%;
+    left: 50%;
+}
+.dcH {
+    background: rgba(0, 0, 0, 0.7);
+    width: 100vw;
+    height: 150px;
+    position: absolute;
+    top: 0;
+    text-align: center;
+    color: white;
+    font-size: 100px;
+}
+
+
+
+
+footer {
+    background-color: burlywood;
+    height: 200px;
+    width: 100vw;
+    font-size: 30px;
+    position: relative;
+}
+.info {
+    font-size: 20px;
+}
+.copyright {
+    position: absolute;
+    font-size: 10px;
+    padding-left: 45%;
+    top: 85%;
+}
+.HS {
+    position: absolute;
+    left: 15%;
+    top: 0%
+}
