@@ -125,7 +125,6 @@ body {
 #isM .packH {
     font-size: 30px;
     position: absolute;
-    border-bottom: 3px solid black;
     width: 100vw;
 }
 #isM .packL {
